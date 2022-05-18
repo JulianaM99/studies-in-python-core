@@ -1,0 +1,7 @@
+file = open("/usercode/files/pull_ups.txt") #abre o arquivo para manejo
+n = int(input()) #pede um núm. que será utilizado para acessar o índice da lista
+
+list = file.readlines() #lista criada para conseguir acessar a linha exata do arq. por índice (a partir de 0)
+print(list[n]) #imprime a linha 
+
+file.close() #fecha o arq., sempre lembrar!
